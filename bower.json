@@ -1,6 +1,6 @@
 {
     "name": "jq-dropdown",
-    "version": "0.1.0",
+    "version": "1.1.0",
     dependencies": {
         "jquery": ">=1.10.2"
     }
