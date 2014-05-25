@@ -1,7 +1,7 @@
 {
     "name": "jq-dropdown",
-    "version": "1.1.1",
-    dependencies": {
+    "version": "1.1.2",
+    "dependencies": {
         "jquery": ">=1.10.2",
         "bootstrap": "2.3.2"
     }
