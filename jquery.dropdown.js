@@ -56,7 +56,7 @@ if (jQuery) (function ($) {
         trigger.addClass('dropdown-open');
         dropdown
 			.data('dropdown-trigger', trigger)
-			.slideDown();
+			.show();
 
         // Position it
         position();
@@ -91,7 +91,7 @@ if (jQuery) (function ($) {
         $(document).find('.jq-dropdown:visible').each(function () {
             var dropdown = $(this);
             dropdown
-				.slideUp()
+				.hide()
 				.removeData('dropdown-trigger')
 				.trigger('hide', { dropdown: dropdown });
         });
